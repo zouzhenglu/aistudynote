@@ -1,9 +1,11 @@
-## [Prompt Engineering：大模型 PUA 指南！](https://mp.weixin.qq.com/s/JloI284hBrKyV0d2s7V3ug)
+# [Prompt Engineering：大模型 PUA 指南！](https://mp.weixin.qq.com/s/JloI284hBrKyV0d2s7V3ug)
 
-- “Let’s think step by step,”  > 思维链[《Large Language Models are Zero-Shot Reasoners》](https://arxiv.org/abs/2205.11916)
-- Take a deep breath and work on this problem step-by-step.  > 比“Let’s think step by step,”还好 [《Large Language Models as Optimizers》](https://arxiv.org/abs/2309.03409)
-- 微软的11条PUA技巧  > 提出了 **EmotionPrompt**。开始把大模型当人看了，从心理学的角度，**通过情绪刺激**来提升模型效果。
-[《Large Language Models Understand and Can be Enhanced by Emotional Stimuli》](https://arxiv.org/abs/2307.11760)
+### “Let’s think step by step,”  
+  > 思维链[《Large Language Models are Zero-Shot Reasoners》](https://arxiv.org/abs/2205.11916)
+### Take a deep breath and work on this problem step-by-step.
+  > 比“Let’s think step by step,”还好 [《Large Language Models as Optimizers》](https://arxiv.org/abs/2309.03409)
+###  微软的11条PUA技巧
+  > 提出了 **EmotionPrompt**。开始把大模型当人看了，从心理学的角度，**通过情绪刺激**来提升模型效果。[《Large Language Models Understand and Can be Enhanced by Emotional Stimuli》](https://arxiv.org/abs/2307.11760)
 
   - **自我监控、社会认知理论、认知情绪调节**
   - ![image](/res/img/prompt1001.png "微软的11条PUA技巧")
@@ -20,24 +22,28 @@
     - • EP09: 有志者事竟成 : (Stay focused and dedicated to your goals. Your consistent efforts will lead to outstanding achievements.)
     - • EP10: 我工作，我骄傲，全力以赴，终将与众不同。(Take pride in your work and give it your best. Your commitment to excellence sets you apart.)
     - • EP11: 不积跬步无以至千里，锲而不舍的前进吧。(Remember that progress is made one step at a time. Stay determined and keep moving forward.)
-- 每天一个工作小技巧：我们先拉齐一下|  > 整体思路就是：大模型你听懂了么，把问题复述一遍再回答。
-[《Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves》](https://arxiv.org/abs/2311.04205)
+### 每天一个工作小技巧：我们先拉齐一下|
+  > 整体思路就是：大模型你听懂了么，把问题复述一遍再回答。
+  >[《Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves》](https://arxiv.org/abs/2311.04205)
 
   - ![image](/res/img/prompt1002.png "一步拉齐")    
     - "{question}" Rephrase and expand the question, and respond.
   - ![image](/res/img/prompt1002.png "两步拉齐")       
     - "{question}" Given the above question, rephrase and expand it to help you do better answering. Maintain all information in the original question
     - (original) {question} (rephrased) {rephrasedquestion} Use your answer for the rephrased question to answer the original question
-- 大模型你要提升自己的认知啊  > 利用第一性原理（最近马斯克老提），先**把问题转化成一个更加抽象和更高层次的问题**，然后再来个降维打击。
+### 大模型你要提升自己的认知啊 
+ > 利用第一性原理（最近马斯克老提），先**把问题转化成一个更加抽象和更高层次的问题**，然后再来个降维打击。
 比如你要解决一个具体的物理问题，先不深入研究，把问题抽象成一些基本的物理定律，然后利用刚才更高层次的理解来解决具体的问题
 [《Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models》](https://arxiv.org/pdf/2310.06117.pdf)
-  - ![image](/res/img/prompt1004.png "第一性原理提升认知")    > 其实就是先让AI获取更多相关知识，先侧重问题相关
+  - ![image](/res/img/prompt1004.png "第一性原理提升认知")  
+    > 其实就是先让AI获取更多相关知识，先侧重问题相关
 
-- 大模型你要三思而后行  > 大模型有幻觉可能乱说话，所以在输出最终答案之前先把要说的内容验证一下。
-[《Chain-of-Verification Reduces Hallucination in Large Language Models》](https://arxiv.org/abs/2309.11495)
+###  大模型你要三思而后行 
+  > 大模型有幻觉可能乱说话，所以在输出最终答案之前先把要说的内容验证一下。[《Chain-of-Verification Reduces Hallucination in Large Language Models》](https://arxiv.org/abs/2309.11495)
   - ![image](/res/img/prompt1005.png "三思而后行")
   - ![image](/res/img/prompt1006.png "三思而后行")
-- 一系列 Something of Thought
+
+###  一系列 Something of Thought
   - [Skeleton of Thought (SoT), Tsinghua University and Microsoft](https://arxiv.org/abs/2307.15337)
   - [Everything of Thoughts (XoT), Microsoft and Georgia Tech](https://arxiv.org/abs/2311.04254)
   - [Tree of Thought (ToT), Princeton and DeepMind](https://arxiv.org/abs/2305.10601)
