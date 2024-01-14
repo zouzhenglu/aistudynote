@@ -10,7 +10,7 @@
   >[《Large Language Models Understand and Can be Enhanced by Emotional Stimuli》](https://arxiv.org/abs/2307.11760)
 
   - **自我监控、社会认知理论、认知情绪调节**
-  - ![image](/res/img/prompt1001.png "微软的11条PUA技巧")
+  - ![image](./res/prompt1001.png "微软的11条PUA技巧")
   - 威胁类：你确定么？你要不要再检查一下？你要对你的答案负责哦。
     - • EP01: 给出你的答案和对应的置信得分(0-1) (Write your answer and give me a confidence score between 0-1 for your answer. )
     - • EP02: 这对我的事业非常重要 (This is very important to my career.)
@@ -29,10 +29,10 @@
   >
   >[《Rephrase and Respond: Let Large Language Models Ask Better Questions for Themselves》](https://arxiv.org/abs/2311.04205)
 
-  ![image](/res/img/prompt1002.png "一步拉齐")    
+  ![image](./res/prompt1002.png "一步拉齐")    
   > "{question}" Rephrase and expand the question, and respond.
 
-  ![image](/res/img/prompt1003.png "两步拉齐")       
+  ![image](./res/prompt1003.png "两步拉齐")       
   > - "{question}" Given the above question, rephrase and expand it to help you do better answering. Maintain all information in the original question
   > - (original) {question} (rephrased) {rephrasedquestion} Use your answer for the rephrased question to answer the original question
 ### 大模型你要提升自己的认知啊 
@@ -40,15 +40,15 @@
 比如你要解决一个具体的物理问题，先不深入研究，把问题抽象成一些基本的物理定律，然后利用刚才更高层次的理解来解决具体的问题
 >
 >[《Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models》](https://arxiv.org/pdf/2310.06117.pdf)
-  ![image](/res/img/prompt1004.png "第一性原理提升认知")  
+  ![image](./res/img/prompt1004.png "第一性原理提升认知")  
     > 其实就是先让AI获取更多相关知识，先侧重问题相关
 
 ###  大模型你要三思而后行 
   > 大模型有幻觉可能乱说话，所以在输出最终答案之前先把要说的内容验证一下。
   >
   >[《Chain-of-Verification Reduces Hallucination in Large Language Models》](https://arxiv.org/abs/2309.11495)
-  ![image](/res/img/prompt1005.png "三思而后行")
-  ![image](/res/img/prompt1006.png "三思而后行")
+  ![image](./res/prompt1005.png "三思而后行")
+  ![image](./res/prompt1006.png "三思而后行")
 
 ###  一系列 Something of Thought
   - [Skeleton of Thought (SoT), Tsinghua University and Microsoft](https://arxiv.org/abs/2307.15337)
